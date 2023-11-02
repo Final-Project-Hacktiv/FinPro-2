@@ -1,0 +1,33 @@
+<svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="45" height="45" fill="#F2F2F2"/>
+<g id="Landing Page" clip-path="url(#clip0_0_1)">
+<rect width="1440" height="5095" transform="translate(-915 -4574)" fill="white"/>
+<g id="Landing Page_2">
+<rect id="Background" x="-915" y="-4574" width="1440" height="5095" fill="white"/>
+<g id="Main Section">
+<g id="Website-elements/Cards/Newsletter-sign-up">
+<g id="Card">
+<rect id="Background_2" x="-815" y="-253" width="1240" height="383" rx="60" fill="#F2F6FF"/>
+<g id="Email Field" clip-path="url(#clip1_0_1)">
+<rect id="Input Field" x="-445" y="-10" width="500" height="65" rx="17.5" fill="white"/>
+<g id="Submit Button">
+<rect id="Button Background" width="45" height="45" rx="12.5" fill="#234CAD"/>
+<g id="Icon">
+<path id="Icon_2" d="M18 14L27 22.5L18 31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1440" height="5095" fill="white" transform="translate(-915 -4574)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="500" height="65" fill="white" transform="translate(-445 -10)"/>
+</clipPath>
+</defs>
+</svg>
