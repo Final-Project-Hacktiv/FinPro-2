@@ -233,6 +233,455 @@ body{
     font-family: var(--font-family);
 }
 
+/* Banner Jumbotron */
+.banner{
+  width: 100%;
+  height: 611px;
+  position: relative;
+}
+
+.container-banner{
+  border-radius: 60px;
+  background: var(--grey-color);
+  display: flex;
+  position: relative;
+  height: 575px;
+  max-width: 1240px;
+  margin: 50px auto;
+}
+
+.banner-tagline h1{
+  position: absolute;
+  width: 375px;
+  height: 168px;
+  left: 100px;
+  top: 108px;
+  right: 765px;
+  bottom: 299px;
+  color: var(--blue-color);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.banner-tagline p{
+  position: absolute;
+  height: 52px;
+  width: 304px;
+  top: 301px;
+  left: 100px;
+  right: 836px;
+  bottom: 222px;
+  color: var(--blue-color);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.banner-tagline button{
+  position: absolute;
+  display: flex;
+  width: 200px;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32.5px;
+  border: 2px solid var(--blue-color);
+  background-color: transparent;
+  color: var(--blue-color);
+  text-align: center;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  top: 403px;
+  left: 100px;
+  right: 940px;
+  bottom: 107px;
+}
+
+/* elemen atau isi konten di dalam banner */
+.content{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 36px;
+  margin-left: 575px;
+  right: 730px;
+  bottom: 464px;
+  border-radius: 20px;
+  background: var(--bg-white);
+}
+
+.content > .paper-image{
+  height: 30px;
+  width: 24px;
+  margin: 23px 25px 22px 26px;
+  border-radius: 0px;
+}
+
+.upload-card{
+  position: absolute;
+  display: flex;
+  width: 350px;
+  height: 100px;
+  top: 100px;
+  left: 0px;
+  right: 315px;
+  bottom: 339px;
+  background: var(--bg-white);
+  border-radius: 20px;
+}
+
+.upload-card > .circle-upload{
+  display: flex;
+  height: 65px;
+  width: 65px;
+  margin-top: 25px;
+  margin-left: 25px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-top: 3px solid var(--blue-color);
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transform: rotate(-45deg);
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-upload{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: var(--grey-color);
+  transform: rotate(45deg);
+}
+
+.bg-upload > img{
+  margin: 14px;
+}
+
+.upload-text{
+  margin: 30px;
+  line-height: 21px;
+}
+
+.upload-text > p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--blue-color);
+}
+
+.upload-text > h4{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--blue-color);
+}
+
+.team-card{
+  position: absolute;
+  width: 276px;
+  height: 160px;
+  top: 223px;
+  left: 0%;
+  bottom: 154px;
+  right: 389px;
+  background: var(--bg-white);
+  border-radius: 25px;
+}
+
+.top-card{
+  display: flex;
+}
+
+.top-card > .top-text{
+  line-height: 21px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+.top-text > p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--blue-color);
+}
+
+.calendar{
+  position: absolute;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background-color: var(--bg-white);
+  border-radius: 50%;
+  border: 2.25px solid var(--blue-color);
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.calendar > img{
+  margin: 17px;
+}
+
+.bottom-text{
+  display: flex;
+  margin-left: 28px;
+  margin-top: -15px;
+}
+
+.bottom-text > .information{
+  width: 40px;
+  height: 40px;
+  background-color: var(--grey-color);
+  border: 2px solid var(--bg-white);
+  border-radius: 50px;
+  line-height: 40px;
+  text-align: center;
+  margin-left: -8px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 10px;
+  color: var(--blue-color);
+}
+
+.john-smith{
+  position: absolute;
+  display: flex;
+  width: 350px;
+  height: 100px;
+  left: 0px;
+  top: 410px;
+  border-radius: 25px;
+  background: var(--bg-white);
+}
+
+.anna-brooks{
+  position: absolute;
+  display: flex;
+  width: 350px;
+  height: 100px;
+  left: 300px;
+  top: 224px;
+  border-radius: 20px;
+  background: var(--bg-white);
+}
+
+.john-card{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--grey-color);
+  margin: 20px;
+}
+
+.anna-card{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--grey-color);
+  margin: 20px;
+}
+
+.john-card > .name-card{
+  text-align: center;
+  line-height: 60px;
+  color: var(--blue-color);
+  font-weight: 700;
+}
+
+.anna-card > .name-card{
+  text-align: center;
+  line-height: 60px;
+  color: var(--blue-color);
+  font-weight: 700;
+}
+
+.john-card > .notif{
+  position: absolute;
+  font-size: 6px;
+  width: 16px;
+  height: 16px;
+  color: var(--bg-white);
+  background-color: var(--blue-color);
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-white);
+}
+
+.anna-card > .notif{
+  position: absolute;
+  font-size: 6px;
+  width: 16px;
+  height: 16px;
+  color: var(--bg-white);
+  background-color: var(--blue-color);
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--bg-white);
+}
+
+.john-card > .notif > p{
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+}
+
+.anna-card > .notif > p{
+  font-size: 6px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+}
+
+.description{
+  width: 230px;
+  position: relative ;
+  margin-top: 30px;
+  line-height: 24px;
+}
+
+.description > p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--blue-color);
+}
+
+.description > .time{
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+}
+
+.description > .time > p{
+  line-height: 13px;
+  font-size: 10px;
+  color: var(--blue-color);
+}
+
+.storage{
+  position: absolute;
+  width: 130px;
+  height: 160px;
+  left: 400px;
+  top: 40px;
+  right: 135px;
+  bottom: 339px;
+  border-radius: 25px;
+  background: var(--bg-white);
+}
+
+.storage > .top-storage{
+  display: flex;
+  position: relative;
+  width: 70px;
+  height: 70px;
+  top: 29px;
+  left: 30px;
+  right: 30px;
+  bottom: 61px;
+  border-radius: 50%;
+  background-color: transparent;
+  border-top: 3px solid transparent;
+  border-left: 3px solid var(--blue-color);
+  border-right: 3px solid var(--blue-color);
+  border-bottom: 3px solid var(--blue-color);
+  transform: rotate(-45deg);
+  align-items: center;
+  justify-content: center;
+}
+
+.storage > .top-storage > .top-circle{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: var(--grey-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+}
+
+.storage > .bottom-storage{
+  margin-top: 55px;
+  text-align: center;
+}
+
+.storage > .bottom-storage > p{
+  font-size: 12px;
+  color: var(--blue-color);
+}
+
+.bookmark{
+  display: flex;
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 400px;
+  top: 350px;
+  right: 85px;
+  bottom: 89px;
+  border-radius: 20px;
+  background: var(--bg-white);
+}
+
+.bookmark > .left{
+  width: 60px;
+  height: 60px;
+  background-color: var(--grey-color);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  margin: 20px;
+}
+
+.bookmark > .left > p{
+  font-weight: 700;
+  color: var(--blue-color);
+}
+
+.right{
+  margin-top: 30px;
+  line-height: 24px;
+}
+
+.right > p{
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--blue-color);
+}
+
+.chat-logo{
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 478px;
+  right: 215px;
+  bottom: 11px;
+  left: 375px;
+  border-radius: 20px;
+  background: var(--bg-white);
+  text-align: center;
+  line-height: 100px;
+}
+
 /* Pricing */
 .pricing {
     width: 1240px;
