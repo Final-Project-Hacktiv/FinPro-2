@@ -16,14 +16,14 @@
     --bg-white: #FFFFFF;
 }
 
-body{
+body {
     font-family: var(--font-family);
     color: var(--blue-color);
 }
 
 /* Navbar */
 
-.header{
+.header {
     padding: 40px;
     width: 1240px;
     height: 50px;
@@ -35,7 +35,7 @@ body{
     align-items: center;
 }
 
-.menuBttn{
+.menuBttn {
     border: 0;
     outline: 0;
     display: flex;
@@ -48,9 +48,10 @@ body{
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
+    cursor: pointer;
 }
 
-.icon{
+.icon {
     width: 20px;
     height: 10px;
     display: flex;
@@ -59,17 +60,17 @@ body{
     background-color: var(--grey-color);
 }
 
-.navHead{
+.navHead {
     width: 378px;
     height: 29px;
 }
 
-.navList{
+.navList {
     display: flex;
     justify-content: space-evenly;
 }
 
-.navItem{
+.navItem {
     list-style: none;
     font-size: 18px;
     font-weight: 600;
@@ -77,18 +78,18 @@ body{
     color: var(--blue-color);
 }
 
-.navItem a{
+.navItem a {
     text-decoration: none;
     font-size: 18px;
     font-family: var(--font-family);
 }
 
-.Bttn{
+.Bttn {
     display: flex;
     gap: 20px;
 }
 
-.loginBttn{
+.loginBttn {
     width: 135px;
     height: 50px;
     display: flex;
@@ -98,9 +99,10 @@ body{
     color: var(--blue-color);
     border-color: var(--blue-color);
     border-width: 2px;
+    cursor: pointer;
 }
 
-.textLogin{
+.textLogin {
     font-weight: 700;
     font-size: 18px;
     line-height: 29px;
@@ -109,7 +111,7 @@ body{
     font-family: var(--font-family);
 }
 
-.signBttn{
+.signBttn {
     width: 135px;
     height: 50px;
     display: flex;
@@ -119,9 +121,10 @@ body{
     border: 0;
     outline: 0;
     background-color: var(--grey-color);
+    cursor: pointer;
 }
 
-.textSign{
+.textSign {
     font-weight: 700;
     font-size: 18px;
     line-height: 29px;
@@ -132,7 +135,7 @@ body{
 
 /* Footer */
 
-.footer{
+.footer {
     width: 941px;
     height: 166px;
     margin: auto;
@@ -142,7 +145,7 @@ body{
     margin-top: 100px;
 }
 
-.titleCompany{
+.titleCompany {
     width: 110px;
     height: 166;
 }
@@ -168,7 +171,7 @@ body{
     font-family: var(--font-family);
 }
 
-.titleProduct{
+.titleProduct {
     width: 110px;
     height: 115px;
 }
@@ -212,7 +215,7 @@ body{
     font-family: var(--font-family);
 }
 
-.titleSupport{
+.titleSupport {
     width: 132px;
     height: 127px;
 }
@@ -689,32 +692,37 @@ body{
     position: relative;
     margin: auto;
     margin-top: 100px;
-  }
-  .pricing-content {
+}
+
+.pricing-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  .pricing h1 {
+}
+
+.pricing h1 {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
     letter-spacing: 0px;
     margin-bottom: 20px;
-  }
-  .p {
+}
+
+.p {
     width: 365px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     letter-spacing: 0px;
     margin-bottom: 50px;
-  }
-  .pricing-body {
+}
+
+.pricing-body {
     display: flex;
-  }
-  .card-plan-1 {
+}
+
+.card-plan-1 {
     background-color: var(--grey-color);
     border-radius: 60px;
     width: 380px;
@@ -722,8 +730,9 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0 25px;
-  }
-  .card-plan-2 {
+}
+
+.card-plan-2 {
     background-color: var(--bg-white);
     border: 3px solid var(--blue-color);
     border-radius: 60px;
@@ -732,53 +741,60 @@ body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-  }
-  .card-plan-1 h5 {
+}
+
+.card-plan-1 h5 {
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0px;
     margin-top: 50px;
-  }
-  .card-plan-1 h4 {
+}
+
+.card-plan-1 h4 {
     height: 48px;
     margin-top: 40px;
     font-size: 56px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0px;
-  }
-  .card-plan-1 p {
+}
+
+.card-plan-1 p {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0px;
     margin-top: 15px;
-  }
-  .card-plan-2 h5 {
+}
+
+.card-plan-2 h5 {
     font-size: 25px;
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 0px;
     margin-top: 50px;
-  }
-  .card-plan-2 h4 {
+}
+
+.card-plan-2 h4 {
     height: 48px;
     margin-top: 40px;
     font-size: 56px;
     font-weight: 700;
     line-height: 48px;
     letter-spacing: 0px;
-  }
-  .card-plan-2 p {
+}
+
+.card-plan-2 p {
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0px;
     color: var(--color-1);
     margin-top: 15px;
-  }
-  .btn-plan-1 {
+}
+
+.btn-plan-1 {
     width: 274px;
     height: 75px;
     border-radius: 32.5px;
@@ -789,8 +805,9 @@ body{
     background-color: var(--bg-white);
     margin-top: 35px;
     cursor: pointer;
-  }
-  .btn-plan-2 {
+}
+
+.btn-plan-2 {
     width: 274px;
     height: 75px;
     border-radius: 32.5px;
@@ -801,20 +818,20 @@ body{
     background-color: var(--bg-white);
     margin-top: 35px;
     cursor: pointer;
-  }
+}
 
-  .btn-plan-1:hover {
+.btn-plan-1:hover {
     color: var(--grey-color);
     background-color: var(--blue-color);
-  }
+}
 
-  .btn-plan-2:hover {
+.btn-plan-2:hover {
     color: var(--grey-color);
     background-color: var(--blue-color);
-  }
-  
-  /* contact */
-  .contact {
+}
+
+/* contact */
+.contact {
     width: 1240px;
     height: 383px;
     position: relative;
@@ -822,15 +839,15 @@ body{
     border-radius: 60px;
     margin: auto;
     margin-top: 100px;
+}
 
-  
-  }
-  .contact-content {
+.contact-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  .contact h1 {
+}
+
+.contact h1 {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
@@ -838,8 +855,9 @@ body{
     text-align: center;
     margin-top: 75px;
     margin-bottom: 20px;
-  }
-  .contact p {
+}
+
+.contact p {
     width: 348px;
     font-size: 16px;
     font-weight: 400;
@@ -847,19 +865,22 @@ body{
     letter-spacing: 0;
     text-align: center;
     margin-bottom: 50px;
-  }
-  .email-form {
+}
+
+.email-form {
     width: 500px;
     height: 65px;
     top: 243px;
     position: absolute;
-  }
-  .email-form .submit-icon {
+}
+
+.email-form .submit-icon {
     position: absolute;
     right: 10px;
     bottom: 4px;
-  }
-  .email-form input {
+}
+
+.email-form input {
     font-size: 18px;
     font-weight: 400;
     line-height: 29px;
@@ -870,7 +891,187 @@ body{
     padding: 0 20px;
     border: none;
     border-radius: 20px;
-  }
-  .email-form input::placeholder {
+}
+
+.email-form input::placeholder {
     color: var(--blue-color);
-  }
+}
+
+/* About */
+.headAbout {
+    width: 1040px;
+    height: 575px;
+    top: 2254px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.content {
+    width: 365px;
+    height: 360px;
+    top: 108px;
+}
+
+.titleContent {
+    width: 365px;
+    height: 168px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    color: var(--blue-color);
+}
+
+.pContent {
+    width: 304px;
+    height: 52px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--blue-color);
+}
+
+.getBttn {
+    width: 200px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border-color: var(--blue-color);
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.textGet {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    align-items: center;
+    color: var(--blue-color);
+}
+
+.cardHead {
+    width: 575px;
+    height: 575px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+    background-color: var(--grey-color);
+    border-radius: 30px;
+    position: relative;
+}
+
+.cardList {
+    width: 627px;
+    height: 555px;
+    top: 100px;
+    left: 140px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: absolute;
+}
+
+.card1 {
+    width: 326px;
+    height: 210px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+}
+
+.list {
+    width: 276px;
+    height: 160px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+    background-color: var(--bg-white);
+    border-radius: 20px;
+    padding: 40px;
+
+}
+
+.list h4 {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    color: var(--blue-color);
+}
+
+.list p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--blue-color);
+}
+
+.bottom {
+    width: 160px;
+    /* height: 40px; */
+    display: flex;
+    box-sizing: border-box;
+}
+
+.itemBot {
+    width: 40px;
+    /* height: 40px; */
+    color: var(--grey-color);
+    color: var(--bg-white);
+    border-width: 2px;
+    border-color: var(--bg-white);
+    display: flex;
+    gap: 2px;
+}
+
+.itemBot p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 14px;
+    color: var(--blue-color);
+    padding: 15px;
+    background-color: var(--grey-color);
+    border-radius: 100px;
+}
+
+.card2 {
+    width: 326px;
+    height: 210px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+}
+
+.card3 {
+    width: 326px;
+    height: 185px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+}
+
+.card4 {
+    width: 326px;
+    height: 185px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+}
+
+.card5 {
+    width: 326px;
+    height: 185px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+}
+
+.card6 {
+    width: 326px;
+    height: 185px;
+    border-width: 2px;
+    border-color: var(--blue-color);
+}
