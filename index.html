@@ -1,451 +1,455 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slicing UI</title>
     <!-- Font Google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Quicksand:wght@600&family=Signika&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Quicksand:wght@600&family=Signika&display=swap"
+      rel="stylesheet"
+    />
     <!-- Styling -->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<body>
+  <body>
     <!-- Header Navbar Slicing UI -->
     <header class="header">
-        <button class="menuBttn">
-            <p class="icon">=</p>
+      <button class="menuBttn">
+        <p class="icon">=</p>
+      </button>
+      <nav class="navHead">
+        <ul class="navList">
+          <li class="navItem">
+            <a href="#">Home</a>
+          </li>
+          <li class="navItem">
+            <a href="#">Product</a>
+          </li>
+          <li class="navItem">
+            <a href="#">About</a>
+          </li>
+          <li class="navItem">
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="Bttn">
+        <button class="loginBttn">
+          <p class="textLogin">Login</p>
         </button>
-        <nav class="navHead">
-            <ul class="navList">
-                <li class="navItem">
-                    <a href="#">Home</a>
-                </li>
-                <li class="navItem">
-                    <a href="#">Product</a>
-                </li>
-                <li class="navItem">
-                    <a href="#">About</a>
-                </li>
-                <li class="navItem">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <div class="Bttn">
-            <button class="loginBttn">
-                <p class="textLogin">Login</p>
-            </button>
-            <button class="signBttn">
-                <p class="textSign">Sign up</p>
-            </button>
-        </div>
+        <button class="signBttn">
+          <p class="textSign">Sign up</p>
+        </button>
+      </div>
     </header>
 
     <!-- Banner atau Jumbotron -->
     <section class="banner">
-        <div class="container-banner">
-            <div class="banner-tagline">
-                <h1>Bussiness Communication Reinvented</h1>
-                <p>Start communicating with your business team more efficiently with
-                    our app.</p>
-                <button class="button-banner">Get the App</button>
-            </div>
+      <div class="container-banner">
+        <div class="banner-tagline">
+          <h1>Bussiness Communication Reinvented</h1>
+          <p>
+            Start communicating with your business team more efficiently with
+            our app.
+          </p>
+          <button class="button-banner">Get the App</button>
         </div>
-        <div class="content-banner">
-            <div class="paper-image">
-                <img src="Resources/papper.png" alt="paper-icon" />
-            </div>
-            <div class="upload-card">
-                <div class="circle-upload">
-                    <div class="bg-upload">
-                        <img src="Resources/upload.png" alt="upload" />
-                    </div>
-                </div>
-                <div class="upload-text">
-                    <h4>Uploading Document</h4>
-                    <p>7,09/ 108,98 GB</p>
-                </div>
-            </div>
-            <div class="team-card">
-                <div class="top-card">
-                    <div class="calendar">
-                        <img src="Resources/calender.png" alt="calendar-icon"/>
-                    </div>
-                    <div class="top-text">
-                        <h4>Team Meeting</h4>
-                        <p>2:30 PM 15 Apr 2020</p>
-                    </div>
-                </div>
-                <div class="bottom-text">
-                    <div class="information">JM</div>
-                    <div class="information">AC</div>
-                    <div class="information">KD</div>
-                    <div class="information">8+</div>
-                </div>
-            </div>
-            <div class="john-smith">
-                <div class="john-card">
-                    <div class="name-card">
-                        <p>JS</p>
-                    </div>
-                    <div class="notif">
-                        <p>3</p>
-                    </div>
-                </div>
-                <div class="description">
-                    <h4>John Smith</h4>
-                    <p>Hello, are you available for a pro…</p>
-                    <div class="time">
-                        <p>11:02 AM</p>
-                    </div>
-                </div>
-            </div>
-            <div class="storage">
-                <div class="top-storage">
-                    <div class="top-circle">
-                        <img src="Resources/upload.png" alt="upload-icon" />
-                    </div>
-                </div>
-                <div class="bottom-storage">
-                    <p>1,73/ 2.09 GB</p>
-                </div>
-            </div>
-            <div class="anna-brooks">
-                <div class="anna-card">
-                    <div class="name-card">
-                        <p>AB</p>
-                    </div>
-                    <div class="notif">
-                        <p>2</p>
-                    </div>
-                </div>
-                <div class="description">
-                    <h4>Anna Brooks</h4>
-                    <p>Hi, how are you doing today?</p>
-                    <div class="time">
-                        <p>2:09 PM</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bookmark">
-                <div class="left">
-                    <img src="Resources/bookmark.png" alt="bookmark-icon" />
-                </div>
-                <div class="right">
-                    <h4>Message Saved</h4>
-                    <p>You have successfully saved this message</p>
-                </div>
-            </div>
-            <div class="chat-logo">
-                <img src="Resources/chat.png" alt="chat-icon" />
-            </div>
+      </div>
+      <div class="content-banner">
+        <div class="paper-image">
+          <img src="Resources/papper.png" alt="paper-icon" />
         </div>
+        <div class="upload-card">
+          <div class="circle-upload">
+            <div class="bg-upload">
+              <img src="Resources/upload.png" alt="upload" />
+            </div>
+          </div>
+          <div class="upload-text">
+            <h4>Uploading Document</h4>
+            <p>7,09/ 108,98 GB</p>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="top-card">
+            <div class="calendar">
+              <img src="Resources/calender.png" alt="calendar-icon" />
+            </div>
+            <div class="top-text">
+              <h4>Team Meeting</h4>
+              <p>2:30 PM 15 Apr 2020</p>
+            </div>
+          </div>
+          <div class="bottom-text">
+            <div class="information">JM</div>
+            <div class="information">AC</div>
+            <div class="information">KD</div>
+            <div class="information">8+</div>
+          </div>
+        </div>
+        <div class="john-smith">
+          <div class="john-card">
+            <div class="name-card">
+              <p>JS</p>
+            </div>
+            <div class="notif">
+              <p>3</p>
+            </div>
+          </div>
+          <div class="description">
+            <h4>John Smith</h4>
+            <p>Hello, are you available for a pro…</p>
+            <div class="time">
+              <p>11:02 AM</p>
+            </div>
+          </div>
+        </div>
+        <div class="storage">
+          <div class="top-storage">
+            <div class="top-circle">
+              <img src="Resources/upload.png" alt="upload-icon" />
+            </div>
+          </div>
+          <div class="bottom-storage">
+            <p>1,73/ 2.09 GB</p>
+          </div>
+        </div>
+        <div class="anna-brooks">
+          <div class="anna-card">
+            <div class="name-card">
+              <p>AB</p>
+            </div>
+            <div class="notif">
+              <p>2</p>
+            </div>
+          </div>
+          <div class="description">
+            <h4>Anna Brooks</h4>
+            <p>Hi, how are you doing today?</p>
+            <div class="time">
+              <p>2:09 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="bookmark">
+          <div class="left">
+            <img src="Resources/bookmark.png" alt="bookmark-icon" />
+          </div>
+          <div class="right">
+            <h4>Message Saved</h4>
+            <p>You have successfully saved this message</p>
+          </div>
+        </div>
+        <div class="chat-logo">
+          <img src="Resources/chat.png" alt="chat-icon" />
+        </div>
+      </div>
     </section>
 
     <!-- Secure Features -->
     <section class="secure">
-        <div class="container-secure">
-            <div class="secure-content-left">
-                <div class="secure-icon">
-                    <img src="Resources/cloud.png" alt="cloud-icon" />
-                </div>
-                <div class="text-content">
-                    <h1>Cloud based</h1>
-                    <p>All your messages are always backed up.</p>
-                </div>
-            </div>
-            <div class="secure-content-right">
-                <div class="secure-icon">
-                    <img src="Resources/gembok.png" alt="lock-icon" />
-                </div>
-                <div class="text-content">
-                    <h1>Secured</h1>
-                    <p>All your messages are stored very securely.</p>
-                </div>
-            </div>
+      <div class="container-secure">
+        <div class="secure-content-left">
+          <div class="secure-icon">
+            <img src="Resources/cloud.png" alt="cloud-icon" />
+          </div>
+          <div class="text-content">
+            <h1>Cloud based</h1>
+            <p>All your messages are always backed up.</p>
+          </div>
         </div>
+        <div class="secure-content-right">
+          <div class="secure-icon">
+            <img src="Resources/gembok.png" alt="lock-icon" />
+          </div>
+          <div class="text-content">
+            <h1>Secured</h1>
+            <p>All your messages are stored very securely.</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-
     <!-- Product Features 1 -->
-    <div class="productHead">
-        <div class="card-product">
-            <div class="personList">
-                <div class="person">
-                    <div class="card-person">
-                        <div class="name-card">
-                            <p>AJ</p>
-                        </div>
-                        <div class="notif">
-                            <p>2</p>
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h4>Andrew Johnson</h4>
-                        <p>I have seen that you are availabl…</p>
-                        <div class="time">
-                            <p>1:03 PM</p>
-                        </div>
-                    </div>
+    <section class="product-feature">
+      <div class="container-feature">
+        <div class="pf-content">
+          <div class="pf-card">
+            <div class="pf-card1">
+              <div class="pf-card-1-content">
+                <div class="nick-1">
+                  <div class="name-pf-card c-1">
+                    <h1>AJ<span class="notif-2">1</span></h1>
+                  </div>
                 </div>
-                <div class="person">
-                    <div class="card-person">
-                        <div class="name-card">
-                            <p>DL</p>
-                        </div>
-                        <div class="notif">
-                            <p>1</p>
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h5>Daniel Luke</h5>
-                        <p>Would you like to have a meetin…</p>
-                        <div class="time">
-                            <p>5:27 AM</p>
-                        </div>
-                    </div>
+                <div class="content-text c-1 ct-1">
+                  <h1>Andrew Johnson</h1>
+                  <p>I have seen that you are availabl…</p>
                 </div>
-                <div class="person">
-                    <div class="card-person">
-                        <div class="name-card">
-                            <p>MC</p>
-                        </div>
-                        <div class="notif">
-                            <p>4</p>
-                        </div>
-                    </div>
-                    <div class="description">
-                        <h5>Mark Clarke</h5>
-                        <p>This was such a busy week. I can…</p>
-                        <div class="time">
-                            <p>2:08 AM</p>
-                        </div>
-                    </div>
+                <div class="pf-time c-1 t-1">
+                  <p>1.03 AM</p>
                 </div>
+              </div>
             </div>
+            <div class="pf-card2">
+              <div class="pf-card-1-content">
+                <div class="nick-2">
+                  <div class="name-pf-card c-2">
+                    <h1>DL<span class="notif-2">1</span></h1>
+                  </div>
+                </div>
+                <div class="content-text c-2 ct-2">
+                  <h1>Daniel Luke</h1>
+                  <p>Would you like to have a meetin…</p>
+                </div>
+                <div class="pf-time c-2 t-2">
+                  <p>5:27 AM</p>
+                </div>
+              </div>
+            </div>
+            <div class="pf-card3">
+              <div class="pf-card-1-content">
+                <div class="nick-3">
+                  <div class="name-pf-card c-3">
+                    <h1>MC<span class="notif-3">4</span></h1>
+                  </div>
+                </div>
+                <div class="content-text c-3 ct-3">
+                  <h1>Mark Clarke</h1>
+                  <p>This was such a busy week. I can…</p>
+                </div>
+                <div class="pf-time c-3 t-3">
+                  <p>2:08 AM</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="content-product">
-            <h1 class="titleContent">
-                Use our app to send messages to your team
-            </h1>
-            <p class="pContent">
-                We offer really easy communications for all businesses from small to large.
+        <div class="pf-text">
+          <div class="main-text">
+            <h1>Use our app to send messages to your team</h1>
+          </div>
+          <div class="text-body">
+            <p>
+              We offer really easy communications for all businesses from small
+              to large.
             </p>
-            <button class="getBttn">
-                <p class="textGet"> Get the app</p>
-            </button>
+          </div>
+          <div class="get-app-bttn">
+            <button>Get the app</button>
+          </div>
         </div>
-    </div>
-
-
-
+      </div>
+    </section>
 
     <!-- About -->
     <div class="headAbout">
-        <div class="content">
-            <h1 class="titleContent">
-                Increase the efficiency within your company
-            </h1>
-            <p class="pContent">
-                Out app is the great way for you to start getting more tasks done.
-            </p>
-            <button class="getBttn">
-                <p class="textGet">Get the app</p>
-            </button>
-        </div>
-        <div class="cardHead">
-            <div class="cardList">
-                <div class="card1">
-                    <div class="list">
-                        <div class="calender">
-                            <img src="img/calendar.svg" alt="calender">
-                            <div class="listTitle">
-                                <h4>Daily Standup</h4>
-                                <p>2:30 PM 15 Apr 2020</p>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <div class="itemBot">
-                                <p>KU</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>MG</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>AI</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>+29</p>
-                            </div>
-                        </div>
-                    </div>
+      <div class="content">
+        <h1 class="titleContent">
+          Increase the efficiency within your company
+        </h1>
+        <p class="pContent">
+          Out app is the great way for you to start getting more tasks done.
+        </p>
+        <button class="getBttn">
+          <p class="textGet">Get the app</p>
+        </button>
+      </div>
+      <div class="cardHead">
+        <div class="cardList">
+          <div class="card1">
+            <div class="list">
+              <div class="calender">
+                <img src="img/calendar.svg" alt="calender" />
+                <div class="listTitle">
+                  <h4>Daily Standup</h4>
+                  <p>2:30 PM 15 Apr 2020</p>
                 </div>
-                <div class="card2">
-                    <div class="list">
-                        <div class="calender">
-                            <img src="img/calendar.svg" alt="calender">
-                            <div class="listTitle">
-                                <h4>Daily Emails</h4>
-                                <p>8:30 AM 28 Apr2020</p>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <div class="itemBot">
-                                <p>MC</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>KY</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>AJ</p>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="bottom">
+                <div class="itemBot">
+                  <p>KU</p>
                 </div>
-                <div class="card3">
-                    <div class="list">
-                        <div class="calender">
-                            <img src="img/calendar.svg" alt="calender">
-                            <div class="listTitle">
-                                <h4>Marketing Call</h4>
-                                <p>4:45 PM 30 May 2020</p>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <div class="itemBot">
-                                <p>CO</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>VN</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="itemBot">
+                  <p>MG</p>
                 </div>
-                <div class="card4">
-                    <div class="list">
-                        <div class="calender">
-                            <img src="img/calendar.svg" alt="calender">
-                            <div class="listTitle">
-                                <h4>Project Meeting</h4>
-                                <p>5:45 PM 1 Jun 2020</p>
-                            </div>
-                        </div>
-                        <div class="bottom">
-                            <div class="itemBot">
-                                <p>TI</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>DE</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>PB</p>
-                            </div>
-                            <div class="itemBot">
-                                <p>+2</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="itemBot">
+                  <p>AI</p>
                 </div>
-                <div class="card5">
-                    <div class="list">
-                        <div class="calender">
-                            <img src="img/calendar.svg" alt="calender">
-                            <div class="listTitle">
-                                <h4>Presentation</h4>
-                                <p>10:15 AM 2 Jul 2020</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="itemBot">
+                  <p>+29</p>
                 </div>
-                <div class="card6">
-                    <div class="list">
-                        <div class="calender">
-                            <img src="img/calendar.svg" alt="calender">
-                            <div class="listTitle">
-                                <h4>Sales Call</h4>
-                                <p> 12:30 PM 5 May 2020</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
+          <div class="card2">
+            <div class="list">
+              <div class="calender">
+                <img src="img/calendar.svg" alt="calender" />
+                <div class="listTitle">
+                  <h4>Daily Emails</h4>
+                  <p>8:30 AM 28 Apr2020</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="itemBot">
+                  <p>MC</p>
+                </div>
+                <div class="itemBot">
+                  <p>KY</p>
+                </div>
+                <div class="itemBot">
+                  <p>AJ</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card3">
+            <div class="list">
+              <div class="calender">
+                <img src="img/calendar.svg" alt="calender" />
+                <div class="listTitle">
+                  <h4>Marketing Call</h4>
+                  <p>4:45 PM 30 May 2020</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="itemBot">
+                  <p>CO</p>
+                </div>
+                <div class="itemBot">
+                  <p>VN</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card4">
+            <div class="list">
+              <div class="calender">
+                <img src="img/calendar.svg" alt="calender" />
+                <div class="listTitle">
+                  <h4>Project Meeting</h4>
+                  <p>5:45 PM 1 Jun 2020</p>
+                </div>
+              </div>
+              <div class="bottom">
+                <div class="itemBot">
+                  <p>TI</p>
+                </div>
+                <div class="itemBot">
+                  <p>DE</p>
+                </div>
+                <div class="itemBot">
+                  <p>PB</p>
+                </div>
+                <div class="itemBot">
+                  <p>+2</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card5">
+            <div class="list">
+              <div class="calender">
+                <img src="img/calendar.svg" alt="calender" />
+                <div class="listTitle">
+                  <h4>Presentation</h4>
+                  <p>10:15 AM 2 Jul 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card6">
+            <div class="list">
+              <div class="calender">
+                <img src="img/calendar.svg" alt="calender" />
+                <div class="listTitle">
+                  <h4>Sales Call</h4>
+                  <p>12:30 PM 5 May 2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
- 
+
     <!-- Pricing -->
     <section class="pricing">
-        <div class="pricing-content">
-            <h1>Explore our simple pricing</h1>
-            <p class="p">We offer one of the most competitive prices on the market for everyone.</p>
-            <div class="pricing-body">
-                <div class="card-plan-1">
-                    <h5>Basic</h5>
-                    <h4>$9</h4>
-                    <p>Per month</p>
-                    <button class="btn-plan-1">Learn More</button>
-                </div>
-                <div class="card-plan-2">
-                    <h5>Premium</h5>
-                    <h4>$29</h4>
-                    <p>Per month</p>
-                    <button class="btn-plan-2">Get Started</button>
-                </div>
-                <div class="card-plan-1">
-                    <h5>Enterprise</h5>
-                    <h4>$129</h4>
-                    <p>Per month</p>
-                    <button class="btn-plan-1">Learn More</button>
-                </div>
-            </div>
+      <div class="pricing-content">
+        <h1>Explore our simple pricing</h1>
+        <p class="p">
+          We offer one of the most competitive prices on the market for
+          everyone.
+        </p>
+        <div class="pricing-body">
+          <div class="card-plan-1">
+            <h5>Basic</h5>
+            <h4>$9</h4>
+            <p>Per month</p>
+            <button class="btn-plan-1">Learn More</button>
+          </div>
+          <div class="card-plan-2">
+            <h5>Premium</h5>
+            <h4>$29</h4>
+            <p>Per month</p>
+            <button class="btn-plan-2">Get Started</button>
+          </div>
+          <div class="card-plan-1">
+            <h5>Enterprise</h5>
+            <h4>$129</h4>
+            <p>Per month</p>
+            <button class="btn-plan-1">Learn More</button>
+          </div>
         </div>
+      </div>
     </section>
     <!-- End Pricing -->
 
     <!-- CONTACT -->
     <section class="contact">
-        <div class="contact-content">
-            <h1>Sign up to our newsletter</h1>
-            <p>Receive latest news, updates, discounts and many other things every week.</p>
-            <div class="email-form">
-                <input type="email" placeholder="Enter your email address">
-                <div class="submit-icon">
-                    <img src="img/Submit-Button.svg" alt="submit">
-                </div>
-            </div>
+      <div class="contact-content">
+        <h1>Sign up to our newsletter</h1>
+        <p>
+          Receive latest news, updates, discounts and many other things every
+          week.
+        </p>
+        <div class="email-form">
+          <input type="email" placeholder="Enter your email address" />
+          <div class="submit-icon">
+            <img src="img/Submit-Button.svg" alt="submit" />
+          </div>
         </div>
+      </div>
     </section>
     <!-- END CONTACT -->
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="titleCompany">
-            <h1>Startup.io</h1>
-            <p>&copy; 2020 - All rights reserved</p>
-        </div>
-        <div class="titleProduct">
-            <h1>Product</h1>
-            <p>Benefits</p>
-            <p>Feedback</p>
-            <p>Features</p>
-        </div>
-        <div class="titleAbout">
-            <h1>About</h1>
-            <p>Company</p>
-            <p>Team</p>
-        </div>
-        <div class="titleSupport">
-            <h1>Support</h1>
-            <p>Get help</p>
-            <p>Team of service</p>
-        </div>
+      <div class="titleCompany">
+        <h1>Startup.io</h1>
+        <p>&copy; 2020 - All rights reserved</p>
+      </div>
+      <div class="titleProduct">
+        <h1>Product</h1>
+        <p>Benefits</p>
+        <p>Feedback</p>
+        <p>Features</p>
+      </div>
+      <div class="titleAbout">
+        <h1>About</h1>
+        <p>Company</p>
+        <p>Team</p>
+      </div>
+      <div class="titleSupport">
+        <h1>Support</h1>
+        <p>Get help</p>
+        <p>Team of service</p>
+      </div>
     </footer>
-
-</body>
-
+  </body>
 </html>

@@ -49,11 +49,14 @@ body {
     font-weight: 400;
     font-size: 24px;
     cursor: pointer;
+    background: var(--grey-color);
 }
 
 .icon {
     width: 20px;
     height: 10px;
+    font-weight: 500;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +100,7 @@ body {
     align-items: center;
     border-radius: 25px;
     color: var(--blue-color);
+    background: transparent;
     border-color: var(--blue-color);
     border-width: 2px;
     cursor: pointer;
@@ -1070,6 +1074,7 @@ body {
   border-radius: 25px;
   border-color: var(--blue-color);
   border-width: 2px;
+  background: transparent;
   cursor: pointer;
 }
 
@@ -1212,30 +1217,328 @@ body {
 }
 
 /* Product Feactures */
-.productHead {
-  width: 1015px;
+.product-feature{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.container-feature{
+  height: auto;
+  display: flex;
+  /* width: 80%; */
+  width: 1299px;
   height: 575px;
-  top: 1175px;
+  margin-bottom: 12%;
+  padding: 0 100px;
+  flex-direction: row;  
+}
+
+.pf-content{
+  width: 575px;
+  height: 575px;
+  border: none;  
+}
+
+.pf-text{
+  width: 445px;
+  height: 575px; 
+}
+
+.pf-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+}
+
+.main-text{
+  width: 350px;
+  height: 200px;
+  font-family: var(--font-family);
+  font-style: normal;
+  margin: 108px 0 25px 100px;  
+}
+
+.main-text h1{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 56px;
+  color: var(--blue-color);
+}
+
+.pf-text .main-text h1{
+  width: 350px;
+  text-align: justify;
+
+}
+
+.pf-card{
+  width: 100%;
+  position: relative;
+  height: 100%;
+  background: var(--grey-color);
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pf-card1 .pf-card2 .pf-card3{
+  position: relative;
+  background: var(--bg-white);
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;  
+}
+
+.pf-card1{
+  width: 438px;
+  height: 125px;
+  margin: 108px 68px 0 68px;
+  background: var(--bg-white);
+  border-radius: 20px;
+}
+
+.pf-card2{
+  width: 350px;
+  height: 100px;
+  margin: 25px 112px 0 112px;
+  background: var(--bg-white); 
+  border-radius: 20px;
+}
+
+.pf-card3{
+  width: 262px;
+  height: 75px;
+  margin: 25px 157px 117px 157px;
+  background: var(--bg-white); 
+  border-radius: 20px;
+}
+
+.pf-card-1-content{
+  display: flex;
+  flex-direction: row;  
+}
+
+.nick-1{
+  padding: 25px;  
+}
+
+.nick-2{
+  padding: 20px;  
+}
+
+.nick-3{
+  padding: 15px;  
+}
+
+.c-1{
+  width: 75px;
+	height: 75px;
+  font-size: 22px;
+}
+.c-2{
+  width: 60px;
+  height: 60px;
+  font-size: 18px;
+}
+.c-3{
+  width: 45px;
+  height: 45px;
+  font-size: 13px;  
+}
+
+.c-1 h1{
+  font-size: 22px;
+  line-height: 29px;
+}
+.c-2 h1{
+  font-size: 18px;
+  line-height: 24px;
+}
+.c-3 h1{
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.name-pf-card{
+	background: var(--grey-color);
+	border-radius: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  margin: 0 auto;
 }
 
-.card-product {
-  width: 575px;
-  height: 575px;
-  border-width: 2px;
-  border-color: var(--blue-color);
-  background-color: var(--grey-color);
-  border-radius: 30px;
-  position: relative;
+.name-pf-card h1{
+  font-family: var(--font-family);
+  font-style: normal;
+  text-align: center;
+  font-weight: 700;
+  color: var(--blue-color);
 }
 
-.personList {
-  width: 538px;
-  height: 360px;
-  top: 108px;
-  left: 19px;
+.notif-1 {
+  position: absolute;
+  background-color:var(--blue-color);
+  width: 20px;
+  height: 20px;
+  margin-top: -25px;
+  margin-left: 5px;
+  color: var(--bg-white);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.notif-2 {
+  position: absolute;
+  background-color:var(--blue-color);
+  width: 16px;
+  height: 16px;
+  margin-top: -12px;
+  margin-left: 5px; 
+  color: var(--bg-white);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.notif-3 {
+  position: absolute;
+  background-color:var(--blue-color);
+  width: 12px;
+  height: 12px;
+  margin-top: -8px;
+  margin-left: 5px;
+  font-size: 0.4em;
+  line-height: 20px;
+  color: var(--bg-white);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 12px;
+  text-align: center;
+  border-radius: 100%;
+}
+
+.ct-1{
+  flex-grow: 2;
+  height: 125px;
+}
+
+.ct-2{
+  flex-grow: 2;
+  height: 100px;
+}
+
+.ct-3{
+  flex-grow: 2;
+  height: 75px;
+}
+
+.ct-1, .t-1{
+  padding-top: 34px;  
+}
+
+.ct-2, .t-2{
+  padding-top: 28px;
+}
+
+.ct-3, .t-3{
+  padding-top: 22px;
+}
+
+.content-text h1{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  color: var(--blue-color);  
+}
+
+.content-text p{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--blue-color);
+}
+
+.c-1 p{
+  font-size: 15px;
+  line-height: 26px;
+}
+
+.c-2 p{
+  font-size: 12px;
+  line-height: 21px;
+}
+
+.c-3 p{
+  font-size: 9px;
+  line-height: 16px;
+}
+
+.pf-time{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  color: var(--blue-color);
+  mix-blend-mode: normal;
+  opacity: 0.75;
+}
+
+.t-1{
+  font-size: 12px;
+  line-height: 16px;  
+}
+
+.t-2{
+  font-size: 10px;
+  line-height: 13px;
+}
+
+.t-3{
+  font-size: 7px;
+  line-height: 10px;
+}
+
+.text-body{
+  width: 280px;
+  height: 52px;
+  text-align: justify;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--blue-color);
+  margin: 0 36px 50px 100px;
+}
+
+
+.get-app-bttn button{
+  height: 65px;
+  width: 200px;
+  border-radius: 32.5px;
+  border: 2px solid var(--blue-color);
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  text-align: center;
+  color: var(--blue-color);
+  background-color: transparent;
+  margin: 0 140px 107px 100px;
 }
