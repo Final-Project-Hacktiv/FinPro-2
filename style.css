@@ -308,19 +308,19 @@ body {
 }
 
 /* elemen atau isi konten di dalam banner */
-.content{
+.content-banner{
   position: absolute;
   width: 75px;
   height: 75px;
   top: 36px;
-  margin-left: 575px;
+  left: 900px;
   right: 730px;
   bottom: 464px;
   border-radius: 20px;
   background: var(--bg-white);
 }
 
-.content > .paper-image{
+.content-banner > .paper-image{
   height: 30px;
   width: 24px;
   margin: 23px 25px 22px 26px;
@@ -899,179 +899,187 @@ body {
 
 /* About */
 .headAbout {
-    width: 1040px;
-    height: 575px;
-    top: 2254px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin: 0 auto;
+  width: 1040px;
+  height: 575px;
+  top: 2254px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
 }
 
 .content {
-    width: 365px;
-    height: 360px;
-    top: 108px;
+  width: 365px;
+  height: 360px;
+  top: 108px;
 }
 
 .titleContent {
-    width: 365px;
-    height: 168px;
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    color: var(--blue-color);
+  width: 365px;
+  height: 168px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: var(--blue-color);
 }
 
 .pContent {
-    width: 304px;
-    height: 52px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    color: var(--blue-color);
+  width: 304px;
+  height: 52px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--blue-color);
 }
 
 .getBttn {
-    width: 200px;
-    height: 65px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 25px;
-    border-color: var(--blue-color);
-    border-width: 2px;
-    cursor: pointer;
+  width: 200px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  border-color: var(--blue-color);
+  border-width: 2px;
+  cursor: pointer;
 }
 
 .textGet {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 36px;
-    align-items: center;
-    color: var(--blue-color);
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 36px;
+  align-items: center;
+  color: var(--blue-color);
 }
 
 .cardHead {
-    width: 575px;
-    height: 575px;
-    border-width: 2px;
-    border-color: var(--blue-color);
-    background-color: var(--grey-color);
-    border-radius: 30px;
-    position: relative;
+  width: 575px;
+  height: 575px;
+  border-width: 2px;
+  border-color: var(--blue-color);
+  background-color: var(--grey-color);
+  border-radius: 30px;
+  position: relative;
 }
 
 .cardList {
-    width: 627px;
-    height: 555px;
-    top: 100px;
-    left: 140px;
-    border-width: 2px;
-    border-color: var(--blue-color);
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    position: absolute;
+  width: 627px;
+  height: 555px;
+  top: 100px;
+  left: 140px;
+  border-width: 2px;
+  border-color: var(--blue-color);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: absolute;
 }
 
 .card1 {
-    width: 326px;
-    height: 210px;
-    border-width: 2px;
-    border-color: var(--blue-color);
+  width: 326px;
+  height: 210px;
+  border-width: 2px;
+  border-color: var(--blue-color);
 }
 
 .list {
-    width: 276px;
-    height: 160px;
-    border-width: 2px;
-    border-color: var(--blue-color);
-    background-color: var(--bg-white);
-    border-radius: 20px;
-    padding: 40px;
-
+  width: 276px;
+  height: 160px;
+  border-width: 2px;
+  border-color: var(--blue-color);
+  background-color: var(--bg-white);
+  border-radius: 20px;
+  padding: 40px;
 }
 
 .list h4 {
-    font-family: var(--font-family);
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 21px;
-    color: var(--blue-color);
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21px;
+  color: var(--blue-color);
 }
 
 .list p {
-    font-family: var(--font-family);
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 21px;
-    color: var(--blue-color);
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--blue-color);
+  display: flex;
+}
+
+.calender {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 2px;
 }
 
 .bottom {
-    width: 160px;
-    /* height: 40px; */
-    display: flex;
-    box-sizing: border-box;
+  width: 160px;
+  /* height: 40px; */
+  display: flex;
+  box-sizing: border-box;
 }
 
 .itemBot {
-    width: 40px;
-    /* height: 40px; */
-    color: var(--grey-color);
-    color: var(--bg-white);
-    border-width: 2px;
-    border-color: var(--bg-white);
-    display: flex;
-    gap: 2px;
+  width: 40px;
+  /* height: 40px; */
+  color: var(--grey-color);
+  color: var(--bg-white);
+  border-width: 2px;
+  border-color: var(--bg-white);
+  display: flex;
+  gap: 2px;
 }
 
 .itemBot p {
-    font-family: var(--font-family);
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 14px;
-    color: var(--blue-color);
-    padding: 15px;
-    background-color: var(--grey-color);
-    border-radius: 100px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: var(--blue-color);
+  padding: 15px;
+  background-color: var(--grey-color);
+  border-radius: 100px;
 }
 
 .card2 {
-    width: 326px;
-    height: 210px;
-    border-width: 2px;
-    border-color: var(--blue-color);
+  width: 326px;
+  height: 210px;
+  border-width: 2px;
+  border-color: var(--blue-color);
 }
 
 .card3 {
-    width: 326px;
-    height: 185px;
-    border-width: 2px;
-    border-color: var(--blue-color);
+  width: 326px;
+  height: 185px;
+  border-width: 2px;
+  border-color: var(--blue-color);
 }
 
 .card4 {
-    width: 326px;
-    height: 185px;
-    border-width: 2px;
-    border-color: var(--blue-color);
+  width: 326px;
+  height: 185px;
+  border-width: 2px;
+  border-color: var(--blue-color);
 }
 
 .card5 {
-    width: 326px;
-    height: 185px;
-    border-width: 2px;
-    border-color: var(--blue-color);
+  width: 326px;
+  height: 185px;
+  border-width: 2px;
+  border-color: var(--blue-color);
 }
 
 .card6 {
-    width: 326px;
-    height: 185px;
-    border-width: 2px;
-    border-color: var(--blue-color);
+  width: 326px;
+  height: 185px;
+  border-width: 2px;
+  border-color: var(--blue-color);
 }
