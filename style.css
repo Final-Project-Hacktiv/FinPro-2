@@ -1210,3 +1210,32 @@ body {
   border-width: 2px;
   border-color: var(--blue-color);
 }
+
+/* Product Feactures */
+.productHead {
+  width: 1015px;
+  height: 575px;
+  top: 1175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.card-product {
+  width: 575px;
+  height: 575px;
+  border-width: 2px;
+  border-color: var(--blue-color);
+  background-color: var(--grey-color);
+  border-radius: 30px;
+  position: relative;
+}
+
+.personList {
+  width: 538px;
+  height: 360px;
+  top: 108px;
+  left: 19px;
+}
