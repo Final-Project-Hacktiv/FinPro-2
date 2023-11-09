@@ -313,7 +313,7 @@ body {
   width: 75px;
   height: 75px;
   top: 36px;
-  left: 900px;
+  /* left: 900px; */
   right: 730px;
   bottom: 464px;
   border-radius: 20px;
@@ -923,6 +923,7 @@ body {
   font-size: 48px;
   line-height: 56px;
   color: var(--blue-color);
+  margin-bottom: 8%;
 }
 
 .pContent {
@@ -933,6 +934,7 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: var(--blue-color);
+  margin-bottom: 10%;
 }
 
 .getBttn {
@@ -962,7 +964,7 @@ body {
   border-width: 2px;
   border-color: var(--blue-color);
   background-color: var(--grey-color);
-  border-radius: 30px;
+  border-radius: 60px;
   position: relative;
 }
 
@@ -1013,11 +1015,12 @@ body {
 }
 
 .calender {
+  /* position: absolute; */
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin: 2px;
+  margin-bottom: 4px;
 }
 
 .bottom {
