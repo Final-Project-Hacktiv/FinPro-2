@@ -685,6 +685,130 @@ body {
   line-height: 100px;
 }
 
+/* Secure Features */
+.secure{
+  display: flex;
+  justify-content: center;
+}
+
+.container-secure{
+  max-width: 1320px;
+  width: 1200px;
+  height: 400px;
+  justify-content: center;
+  padding: 150px 0 150px 0;
+  display: flex;
+  top: 925px;
+  right: 100px;
+  bottom: 4070px;
+  left: 100px;
+}
+
+.secure-content-left{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.secure-content-left > .secure-icon{
+  width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #F2F6FF;
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secure-content-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 69px;
+}
+
+.secure-content-right > .secure-icon{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #F2F6FF;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content{
+  width: 460px;
+}
+
+.text-content > h1{
+  width: 460px;
+  color: #234CAD;
+  font-family: Nunito;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 49px;
+}
+
+.text-content > p{
+  color: #234CAD;
+  font-family: Nunito;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+/* .secure{
+  display: flex;
+  width: 1240px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  top: 925px;
+  right: 100px;
+  bottom: 4070px;
+  left: 100px;
+} */
+
+/* .secure{
+  padding: 0;
+  margin-top: 100px;
+} */
+
+/* .container-secure{
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.secure-content-left{
+  flex-direction: column;
+  text-align: center;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.secure-content-right{
+  flex-direction: column;
+  text-align: center;
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+.secure-icon{
+  margin-right: 0;
+} */
+
 /* Pricing */
 .pricing {
     width: 1240px;
