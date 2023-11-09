@@ -1542,3 +1542,245 @@ body {
   background-color: transparent;
   margin: 0 140px 107px 100px;
 }
+
+
+/* product features 2 */
+.product2 {
+  flex-shrink: 0; 
+  width: 100%;
+  margin-top: 150px; 
+  height: 177px; 
+}
+
+.pftitle{
+  color: var(--blue-color);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px; 
+}
+.pftext{
+  height: 100px;
+  color: var(--blue-color);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  margin-top: 25px;
+}
+.pfcontent2{
+  align-items: center;
+  width: 1240px;
+  height: 575px;
+  padding: 30px;
+  background: var(--bg-white)
+}
+.content2{
+  position: relative;
+  border-radius: 60px;
+  height: 575px;
+  width: 1240px;
+  background-color: var(--grey-color);
+  top: 50%;
+  left: 50%;
+  transform: translate( -25%, -55%);
+}
+.cpf {
+  position: absolute;
+  background: var(--bg-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cp1{
+  height: 160px;
+  width: 276px;
+  border-radius: 25px;
+  flex-direction: column;
+  top: 155px;
+  margin-left: 482px;
+  position: absolute;
+  background: var(--bg-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cp1-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: -60px;
+}
+.cp1-img{
+  margin: 20px;
+  height: 60px;
+  width: 60px;
+}
+.cpf1 {
+  margin-top: 18px;
+}
+.cpf1 h1{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--blue-color);
+}
+.cpf1 p {
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: var(--blue-color);
+}
+.cpf1-client{
+  display: flex;
+  flex-direction: row;
+  margin-left: -105px;
+}
+.cpf1-client h1{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background: var(--bg-white);
+  border: 2px solid var(var(--bg-white));
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 14px;
+  color: var(--blue-color);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+.client2{
+  margin-left: -10px;
+}
+
+.cp2{
+  height: 100px;
+  width: 350px;
+  top: 155px;
+  margin-left: 783px;
+  border-radius: 20px;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.cp2-img{
+  margin-left: -60px;
+  padding-right: 30px;
+}
+.cpf2 {
+  margin-top: 10px;
+}
+.cpf2 h1{
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: var(--blue-color);
+}
+.cpf2 p{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: var(--blue-color);
+}
+.cp3{
+  height: 100px;
+  width: 350px;
+  top: 270px;
+  margin-left: 107px;
+  border-radius: 25px;
+  flex-direction: row;
+}
+.cp3-img{
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  border-radius: 100%;
+  background:var(--bg-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cpf3 {
+  margin-top: 10px;
+}
+.cpf3 h1{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--blue-color);
+}
+.cpf3 p{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: var(--blue-color);
+}
+.cp4{
+  position: absolute;
+  height: 100px;
+  width: 350px;
+  top: 30px;
+  margin-left: 583px;
+  border-radius: 25px;
+  background: var(--bg-white);
+}
+.cp5{
+  position: absolute;
+  height: 100px;
+  width: 350px;
+  top: 340px;
+  margin-left: 482px;
+  border-radius: 20px;
+  background: var(--bg-white);
+} 
+.cp6{
+  height: 160px;
+  width: 130px;
+  top: 465px;
+  margin-left: 482px;
+  border-radius: 25px;
+  flex-direction: column;
+} 
+.cp6 p{
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 13px;
+  margin-top: 20px;
+  color: var(--blue-color);
+}
+.cp7{
+  height: 75px;
+  width: 75px;
+  top: 395px;
+  margin-left: 382px;
+  border-radius: 20px; 
+} 
+.cp8{
+  height: 75px;
+  width: 75px;
+  top: 55px;
+  margin-left: 482px;
+  border-radius: 20px;
+}  
