@@ -144,7 +144,8 @@ body {
     height: 166px;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    margin-bottom: 100px;
+    justify-content: space-between;
     align-items: center;
     margin-top: 100px;
 }
@@ -162,6 +163,7 @@ body {
     line-height: 49px;
     color: var(--blue-color);
     font-family: var(--font-family);
+    margin-bottom: 15px;
 }
 
 .titleCompany p {
@@ -188,6 +190,7 @@ body {
     line-height: 49px;
     color: var(--blue-color);
     font-family: var(--font-family);
+    margin-bottom: 10px;  
 }
 
 .titleProduct p {
@@ -196,6 +199,7 @@ body {
     line-height: 29px;
     color: var(--blue-color);
     font-family: var(--font-family);
+    margin-bottom: 10px; 
 }
 
 .titleAbout {
@@ -209,6 +213,7 @@ body {
     line-height: 49px;
     color: var(--blue-color);
     font-family: var(--font-family);
+    margin-bottom: 10px;   
 }
 
 .titleAbout p {
@@ -217,7 +222,8 @@ body {
     line-height: 29px;
     color: var(--blue-color);
     font-family: var(--font-family);
-}
+    margin-bottom: 10px; 
+  }
 
 .titleSupport {
     width: 132px;
@@ -230,6 +236,7 @@ body {
     line-height: 49px;
     color: var(--blue-color);
     font-family: var(--font-family);
+    margin-bottom: 10px;   
 }
 
 .titleSupport p {
@@ -238,7 +245,8 @@ body {
     line-height: 29px;
     color: var(--blue-color);
     font-family: var(--font-family);
-}
+    margin-bottom: 10px; 
+  }
 
 /* Banner Jumbotron */
 .banner{
@@ -1035,7 +1043,7 @@ body {
   align-items: center;
   flex-direction: row;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 
 .content {
@@ -1787,4 +1795,275 @@ body {
   top: 55px;
   margin-left: 482px;
   border-radius: 20px;
-}  
+}
+
+/* @media only screen and (max-width: 820px) {
+  .banner{
+      margin-bottom: 50px;
+  }
+  .container-banner{
+      height: 1200px;
+  }
+  .row{
+      flex-direction: column;
+  }
+  .papper{
+      margin-left: 90px;
+      top: 630px;
+  }
+  .upload{
+      margin-left: 180px;
+      top: 620px;
+  }
+  .team{
+      margin-left: 90px;
+      top: 740px;
+  }
+  .storage{
+      margin-left: 400px;
+      top: 740px;
+  }
+  .john{
+      margin-left: 90px;
+      top: 920px;
+  }
+  .chat{
+      margin-left: 460px;
+      top: 930px;
+  }
+  .anna{
+      margin-left: 90px;
+      top: 1040px;
+  }
+  .save{
+      margin-left: 90px;
+      top: 500px;
+  }
+  .secure {
+      padding: 0;
+      margin-top: 640px;   
+  }
+  .secure-body{
+      width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0;
+      margin-bottom: 25px;
+  }
+  .secure-content{
+      flex-direction: column;
+      text-align: center;
+  }
+  .secure-img{
+      margin-right: 0;
+  }
+  .mr{
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+  .product1{
+      flex-direction: column;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  .pf-content{
+      width: 575px;
+      height: auto;
+      margin: 25px 0;
+  }
+  .maintext, .bodytext{
+      width: 575px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .maintext, .bodytext{
+      margin: 0;
+  }
+  .button-getapp button{
+      margin: 0;
+  }
+  .product2{
+      width: 820px;
+      padding: 0;
+  }
+  .product2-text{
+      margin-top: 25px;
+  }
+  .content-2{
+      padding: 0;
+      margin-top: 25px;
+  }
+  .card-body{
+      width: 100%;
+      padding: 0;
+  }
+  .card-content-2{
+      width: 720px;
+      height: 575px;
+      border-radius: 25px;
+  }
+  .cp1{
+      top: 25px;
+      margin-left: 25px;
+  }
+  .cp2{
+      top: 445px;
+      margin-left: 25px;
+  }
+  .cp3{
+      top: 205px;
+      margin-left: 25px;
+  }
+  .cp4{
+      top: 325px;
+      margin-left: 25px;
+  }
+  .cp5{
+      top: 25px;
+      margin-left: 345px;
+  }
+  .cp6{
+      top: 155px;
+      margin-left: 565px;
+  }
+  .cp7{
+      top: 345px;
+      margin-left: 615px;
+  }
+  .cp8{
+      top: 445px;
+      margin-left: 615px;
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .container-banner{
+      height: 1260px;
+  }
+  .papper{
+      top: 1160px;
+  }
+  .upload{
+      margin-left: 90px;
+  }
+  .chat{
+      margin-left: 180px;
+      top: 1160px;
+  }
+  .secure{
+      margin-top: 680px;
+  }
+  .secure-textcontent{
+      width: 80%;
+  }
+  .card-content{
+      width: 100%;
+      border-radius: 15px;
+  }
+  .bodytext{
+      width: 300px;
+  }
+  .product2-text{
+      width: 80%;
+      height: 25%;
+      padding: 0;
+      margin: 0;
+  }
+  .card-body{
+      width: 428px;
+      height: 300px;
+  }
+  .pf-card-title{
+      width: 100%;
+      margin: 0;
+  }
+  .pf-card-text{
+      width: 100%;
+  }
+  .card-content-2{
+      height: 860px;
+  }
+  .cp1{
+      margin-left: 15px;
+  }
+  .cp2{
+      margin-left: 15px;
+  }
+  .cp3{
+      margin-left: 15px;
+  }
+  .cp4{
+      margin-left: 15px;
+  }
+  .cp5{
+      top: 565px;
+      margin-left: 15px;
+  }
+  .cp6{
+      top: 680px;
+      margin-left: 15px;
+  }
+  .cp7{
+      top: 680px;
+      margin-left: 165px;
+  }
+  .cp8{
+      top: 680px;
+      margin-left: 255px;
+  }
+  .input-email-newsletter {
+      width: 200px;
+  }
+
+  .button-submit-newsletter {
+      border: none;
+      transform: translateX(-120%);
+      background-color: white;
+      margin: 10px 0px 0px 130px;
+  }
+}
+
+@media only screen and (max-width: 820px) {
+  .container-about{
+      align-items: center;
+      margin-top: -40px;
+  }
+ .about-left{
+  top: 600px;
+  left: 0px;
+ }
+ .pricing{
+  top: 700px;
+ }
+ .price-head h1{
+  position: relative;
+  width: 350px;
+  text-align: center;
+  justify-content: center;
+  left: 110px;
+ }
+ .price-head p{
+  position: relative;
+  left: 100px;
+  text-align: center;
+ }
+ .price-body{
+  top: 50px;
+ }
+ .price-body .row {
+  position: relative;
+  justify-content: center;
+  left: 100px;
+ }
+ .newsletter-body{
+  top : 1600px;
+ }
+ .footer-middle{
+  padding-top: 1600px;
+ }
+} */
